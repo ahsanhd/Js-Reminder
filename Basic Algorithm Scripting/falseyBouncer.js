@@ -13,7 +13,7 @@ function bouncer(arr) {
     let bool = true;
     let arrl = [];
     for(let i = 0; i < arrCopy.length; i++){
-      bool = Boolean(arrCopy[i]);
+      bool = Boolean(arrCopy[i]);                                   // this converts all the elements to Boolean
       if(bool == false){
        delete arrCopy[i];
   
